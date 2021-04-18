@@ -17,7 +17,7 @@ const timer = setInterval(() => {
 },1000);
 
 function updateTimerFace ({ days, hours, mins, secs }) {
-    timerValue.textContent = '${days}:${hours}:${mins}:${secs}';
+    timerValue.textContent = `${days}:${hours}:${mins}:${secs}`;
 }
 
 function pad (value) {
